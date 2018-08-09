@@ -1,5 +1,7 @@
 {
   "name": "app-soccer-raffles",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }

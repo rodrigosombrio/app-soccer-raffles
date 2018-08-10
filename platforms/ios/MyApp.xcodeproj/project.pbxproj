@@ -38,6 +38,7 @@
 		AFC5ADFEFFB544F6956A8889 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755BD37EA54B4DCA84650761 /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A2FDDA702E4841FCB3E12D90 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F75A81E86004CBABE238FA8 /* libz.tbd */; };
 		5CB1C4C0E0AE47AE8E3EC80C /* CDVIonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 108B40031D2E43249BA982B5 /* CDVIonicKeyboard.m */; };
+		DE3D198ABED2485A8F3E7B91 /* CFCallNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C4892240FE4F9AA3A19DC1 /* CFCallNumber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,8 @@
 		6F75A81E86004CBABE238FA8 /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
 		108B40031D2E43249BA982B5 /* CDVIonicKeyboard.m */ = {isa = PBXFileReference; name = "CDVIonicKeyboard.m"; path = "cordova-plugin-ionic-keyboard/CDVIonicKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		A879EC64B7434B10A3B4745A /* CDVIonicKeyboard.h */ = {isa = PBXFileReference; name = "CDVIonicKeyboard.h"; path = "cordova-plugin-ionic-keyboard/CDVIonicKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		59C4892240FE4F9AA3A19DC1 /* CFCallNumber.m */ = {isa = PBXFileReference; name = "CFCallNumber.m"; path = "mx.ferreyra.callnumber/CFCallNumber.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		C87F9935550B42AFB9402651 /* CFCallNumber.h */ = {isa = PBXFileReference; name = "CFCallNumber.h"; path = "mx.ferreyra.callnumber/CFCallNumber.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,6 +274,8 @@
 				5823FDFD188642CAA32200A5 /* GCDWebServerStreamedResponse.h */,
 				108B40031D2E43249BA982B5 /* CDVIonicKeyboard.m */,
 				A879EC64B7434B10A3B4745A /* CDVIonicKeyboard.h */,
+				59C4892240FE4F9AA3A19DC1 /* CFCallNumber.m */,
+				C87F9935550B42AFB9402651 /* CFCallNumber.h */,
 			);
 			name = Plugins;
 			path = "MyApp/Plugins";
@@ -403,6 +408,7 @@
 				6D070D20C0B847B4B78EEF54 /* GCDWebServerFileResponse.m in Sources */,
 				59E61242EBD64D08902D9BDB /* GCDWebServerStreamedResponse.m in Sources */,
 				5CB1C4C0E0AE47AE8E3EC80C /* CDVIonicKeyboard.m in Sources */,
+				DE3D198ABED2485A8F3E7B91 /* CFCallNumber.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

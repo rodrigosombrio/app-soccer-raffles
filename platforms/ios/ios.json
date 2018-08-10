@@ -35,6 +35,10 @@
             {
               "xml": "<feature name=\"Keyboard\"><param name=\"ios-package\" onload=\"true\" value=\"CDVIonicKeyboard\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"CallNumber\"><param name=\"ios-package\" value=\"CFCallNumber\" /></feature>",
+              "count": 1
             }
           ]
         }
@@ -55,6 +59,9 @@
       "PACKAGE_NAME": "io.ionic.starter"
     },
     "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "mx.ferreyra.callnumber": {
       "PACKAGE_NAME": "io.ionic.starter"
     }
   },
@@ -99,6 +106,14 @@
       "clobbers": [
         "window.Keyboard"
       ]
+    },
+    {
+      "id": "mx.ferreyra.callnumber.CallNumber",
+      "file": "plugins/mx.ferreyra.callnumber/www/CallNumber.js",
+      "pluginId": "mx.ferreyra.callnumber",
+      "clobbers": [
+        "call"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -106,6 +121,7 @@
     "cordova-plugin-device": "2.0.2",
     "cordova-plugin-splashscreen": "5.0.2",
     "cordova-plugin-ionic-webview": "2.0.2",
-    "cordova-plugin-ionic-keyboard": "2.1.2"
+    "cordova-plugin-ionic-keyboard": "2.1.2",
+    "mx.ferreyra.callnumber": "0.0.2"
   }
 }

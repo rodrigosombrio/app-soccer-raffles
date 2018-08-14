@@ -1,0 +1,58 @@
+<ion-header>
+	<ion-navbar>
+		<button ion-button menuToggle>
+			<ion-icon name="menu"></ion-icon>
+		</button>
+		<ion-title>Novo time</ion-title>
+	</ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+	<ion-list>
+
+		<ion-item>
+			<ion-label stacked>Nome</ion-label>
+			<ion-input type="text" [(ngModel)]="name"></ion-input>
+		</ion-item>
+
+		<ion-item>
+			<ion-label stacked>Dia da semana</ion-label>
+			<ion-label>Segunda</ion-label> 
+			<ion-checkbox color="dark" checked="true" [(ngModel)]="monday"></ion-checkbox>
+		</ion-item>
+		<ion-item>
+			<ion-label>Terça</ion-label>
+			<ion-datetime color="dark" displayFormat="DDDD" pickerFormat="DDDD" [(ngModel)]="tuesday"></ion-datetime>
+		</ion-item>
+		<ion-item>
+			<ion-label>Terça</ion-label>
+			<ion-checkbox color="dark" checked="true" [(ngModel)]="wednesday"></ion-checkbox>
+		</ion-item>
+		<ion-item>
+			<ion-label>Terça</ion-label>
+			<ion-checkbox color="dark" checked="true" [(ngModel)]="thursday"></ion-checkbox>
+		</ion-item>
+		<ion-item>
+			<ion-label>Terça</ion-label>
+			<ion-checkbox color="dark" checked="true" [(ngModel)]="friday"></ion-checkbox>
+		</ion-item>
+		<ion-item>
+			<ion-label>Terça</ion-label>
+			<ion-checkbox color="dark" checked="true" [(ngModel)]="saturday"></ion-checkbox>
+		</ion-item>
+		<ion-item>
+			<ion-label>Terça</ion-label>
+			<ion-checkbox color="dark" checked="true" [(ngModel)]="sunday"></ion-checkbox>
+		</ion-item>
+
+		<ion-item> 
+			<ion-label stacked>Hor&aacute;rio</ion-label>
+			<ion-datetime displayFormat="HH:mm" [(ngModel)]="hourteam"></ion-datetime>
+		</ion-item>
+
+	</ion-list>
+
+	<button ion-button color="dark" (click)="saveteam()">Salvar</button>
+
+</ion-content>

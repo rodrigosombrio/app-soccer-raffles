@@ -11,6 +11,8 @@ export class CreateTeamPage {
 	private controller: number;
 	public name: any;
 	public hourteam: any;
+	public players: any;
+	public monday:boolean;
 
 	constructor(public navCtrl: NavController, public navParams: NavParams, public storage: Storage) {
 
@@ -22,6 +24,7 @@ export class CreateTeamPage {
 	}
 
 	saveteam() {
+		console.log(this.monday, this.players)
 		let o = { "id": this.controller, "name": this.name, "hour": this.hourteam };
 		this.storage.set(this.controller.toString(), o)
 		this.controller++;

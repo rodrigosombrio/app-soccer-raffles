@@ -1,3 +1,4 @@
+@import url(indigo-pink.css);
 .ion-ios-add:before {
   content: "\f102";
 }
@@ -25676,4 +25677,29 @@ ion-navbar.toolbar {
   padding-bottom: calc(env(safe-area-inset-bottom) + 4px);
   min-height: calc(46px + constant(safe-area-inset-bottom));
   min-height: calc(46px + env(safe-area-inset-bottom));
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+mat-card {
+  max-width: 80% !important;
+  margin: 2em auto !important;
+  text-align: center !important;
+}
+
+mat-toolbar-row {
+  -webkit-box-pack: justify !important;
+  -webkit-justify-content: space-between !important;
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
+}
+
+.done {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: white;
 }

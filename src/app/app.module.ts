@@ -12,6 +12,7 @@ import { CreateTeamPage } from '../pages/create-team/create-team';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { TeamDetailsPage } from '../pages/team-detail/team-detail';
+import { MaterialModule } from './material.module';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { TeamDetailsPage } from '../pages/team-detail/team-detail';
   ],
   imports: [
     BrowserModule,
+    MaterialModule,
     IonicModule.forRoot(MyApp),
     IonicStorageModule.forRoot()
   ],
